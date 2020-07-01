@@ -1,10 +1,10 @@
 package Controle;
 
-public class Correntista {
+public class Cliente {
     private String nome;
     private String cpf;
     
-    public Correntista(String nome, String cpf){
+    public Cliente(String nome, String cpf){
         this.nome = nome;
         this.cpf = cpf;
     }

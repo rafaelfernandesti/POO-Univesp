@@ -6,19 +6,19 @@ public class Conta {
     int nroConta;
     double saldo;
     private Data dataAbertura;
-    private Correntista[] correntistas;
+    private Cliente[] clientes;
     
-    public Conta(int nroConta, Data dataAbertura, Correntista[] correntistas, double valorInicial){
+    public Conta(int nroConta, Data dataAbertura, Cliente[] clientes, double valorInicial){
         this.nroConta = nroConta;
         this.dataAbertura = dataAbertura;
-        this.correntistas = correntistas;
+        this.clientes = clientes;
         this.saldo = valorInicial;
     }
     
     public String toString(){
         String resposta =  "Número da conta: "+nroConta + " - Saldo: "+ saldo + " - Data de Abertura: " + dataAbertura.toString();
-        for(int i=0; i<correntistas.length; i++){
-            resposta = resposta + " " + correntistas[i];
+        for(int i=0; i<clientes.length; i++){
+            resposta = resposta + " " + clientes[i];
         }
         return resposta;
     }
