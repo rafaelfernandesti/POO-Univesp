@@ -2,7 +2,7 @@ package Controle;
 
 import Utilidades.Data;
 
-public class Conta {
+public abstract class Conta {
     int nroConta;
     double saldo;
     private Data dataAbertura;
