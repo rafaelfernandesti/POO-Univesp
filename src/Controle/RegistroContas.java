@@ -8,7 +8,7 @@ public class RegistroContas {
         Data d1 = new Data(07,02,1990);
         Data d2 = new Data(17,02,1992);
         Cliente c11 = new Cliente("Rafael Fernandes", "000.000.000-11");
-        Cliente c12 = new Cliente("Francisco Fernandes", "999.000.000-11");
+        Cliente c12 = new Cliente("Francisco Fernandes", "999.888.777-66");
         Cliente c2 = new Cliente("Fernando Rafael", "999.999.999-99");
         Cliente[] listaClientes1 = new Cliente[2];
         listaClientes1[0] = c11;
